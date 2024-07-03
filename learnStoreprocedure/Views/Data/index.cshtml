@@ -1,8 +1,29 @@
 ﻿@{
     ViewData["Title"] = "Data Users";
 }
+@model List<UserViewModel>
 
 <div class="text-center">
     <h1 class="display">Data Users</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis explicabo at enim voluptas excepturi qui optio necessitatibus eveniet, hic similique sapiente est eius voluptates officia modi! Ipsa modi delectus expedita.</p>
+    <div class="container">
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Birth Date</th>
+                <th>Status</th>
+            </tr>
+            @foreach (var item in Model){
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.FirstName</td>
+                    <td>@item.LastName</td>
+                    <td>@item.BirthDate</td>
+                    <td>@item.IsActive</td>
+                </tr>
+            }
+        </table>
+    </div>
 </div>

@@ -1,11 +1,42 @@
-﻿namespace learnStoreprocedure;
+﻿using System.Data;
+using System.Data.SqlClient;
+using learnStoreprocedure.Models;
+
+namespace learnStoreprocedure;
 
 public class UsersService
 {
-    public UsersService(){}
+    private readonly String _conString;
+    public UsersService(IConfiguration configuration){
+        _conString = configuration.GetConnectionString("newdbforlearnspConnection");
+    }
 
-    private void ExecuteStoreProcedure(){
+    public List<UserViewModel> GetAllUsers () {
+        List<UserViewModel> users = new List<UserViewModel>();
 
+        using (SqlConnection con = new SqlConnection(_conString)){
+            con.Open();
+            using (SqlCommand cmd = new SqlCommand("GetAllDataUsers",con)){
+                cmd.CommandType = CommandType.StoredProcedure;
+                
+                using (SqlDataReader reader = cmd.ExecuteReader()){
+                    while (reader.Read())
+                    {
+                        users.Add(
+                            new UserViewModel {
+                                Id = reader.GetInt32(reader.GetOrdinal("id")),
+                                FirstName = reader.GetString(reader.GetOrdinal("firstname")),
+                                LastName = reader.GetString(reader.GetOrdinal("lastname")),
+                                BirthDate = DateOnly.FromDateTime(reader.GetDateTime(reader.GetOrdinal("birthdate"))),
+                                IsActive = reader.GetBoolean(reader.GetOrdinal("isactive"))
+                            }
+                        );
+                    }
+                }
+            }
+        }
+
+        return users;
     }
 }
 /**

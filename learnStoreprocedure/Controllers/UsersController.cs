@@ -6,12 +6,16 @@ namespace learnStoreprocedure.Controllers
     [Route("data/index")]
     public class UsersController : Controller
     {
-        // GET: UsersController
+        private readonly UsersService _service;
+        public UsersController(UsersService service){
+            _service = service;
+        }
+
         [HttpGet]
         public ActionResult Index()
         {
-            // return View("~/Views/Data/index.cshtml");
-            return View("./../Data/index");
+            var res = _service.GetAllUsers();
+            return View("./../Data/index", res);
         }
 
         [HttpPost]

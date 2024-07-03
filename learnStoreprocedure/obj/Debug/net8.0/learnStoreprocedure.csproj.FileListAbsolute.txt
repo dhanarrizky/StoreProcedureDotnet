@@ -6,6 +6,13 @@ D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\bin\Debug\net8.0\learnStoreproce
 D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\bin\Debug\net8.0\learnStoreprocedure.runtimeconfig.json
 D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\bin\Debug\net8.0\learnStoreprocedure.dll
 D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\bin\Debug\net8.0\learnStoreprocedure.pdb
+D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\obj\Debug\net8.0\learnStoreprocedure.csproj.AssemblyReference.cache
 D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\obj\Debug\net8.0\learnStoreprocedure.GeneratedMSBuildEditorConfig.editorconfig
 D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\obj\Debug\net8.0\learnStoreprocedure.AssemblyInfoInputs.cache
 D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\obj\Debug\net8.0\learnStoreprocedure.AssemblyInfo.cs
@@ -13,6 +20,7 @@ D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\obj\Debug\net8.0\learnStoreproce
 D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\obj\Debug\net8.0\learnStoreprocedure.MvcApplicationPartsAssemblyInfo.cache
 D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\obj\Debug\net8.0\learnStoreprocedure.RazorAssemblyInfo.cache
 D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\obj\Debug\net8.0\learnStoreprocedure.RazorAssemblyInfo.cs
+D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\obj\Debug\net8.0\learnStoreprocedure.sourcelink.json
 D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\obj\Debug\net8.0\staticwebassets.build.json
 D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\obj\Debug\net8.0\staticwebassets.development.json
 D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\obj\Debug\net8.0\staticwebassets\msbuild.learnStoreprocedure.Microsoft.AspNetCore.StaticWebAssets.props
@@ -23,6 +31,7 @@ D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\obj\Debug\net8.0\staticwebassets
 D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\obj\Debug\net8.0\scopedcss\bundle\learnStoreprocedure.styles.css
 D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\obj\Debug\net8.0\scopedcss\projectbundle\learnStoreprocedure.bundle.scp.css
+D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\obj\Debug\net8.0\learnSto.D584736D.Up2Date
 D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\obj\Debug\net8.0\learnStoreprocedure.dll
 D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\obj\Debug\net8.0\refint\learnStoreprocedure.dll
 D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreprocedure\obj\Debug\net8.0\learnStoreprocedure.pdb
