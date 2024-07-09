@@ -28,7 +28,7 @@ public class Program
 
         app.MapControllerRoute(
             name: "default",
-            pattern: "{controller}/{action}");
+            pattern: "{controller=Home}/{action=index}");
 
         app.Run();
 

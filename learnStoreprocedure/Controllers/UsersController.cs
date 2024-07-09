@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace learnStoreprocedure.Controllers
 {
-    [Route("data/index")]
+    [Route("data")]
     public class UsersController : Controller
     {
         private readonly UsersService _service;
@@ -21,7 +21,8 @@ namespace learnStoreprocedure.Controllers
         [HttpPost]
         public ActionResult AddNewUser(UserViewModel user)
         {
-            return View("./../Data/index");
+            var res = _service.AddNewUser(user);
+            return View("./../Data/index", res);
         }
 
         [HttpGet("id")]

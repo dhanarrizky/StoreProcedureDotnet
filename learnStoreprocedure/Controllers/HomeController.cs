@@ -5,6 +5,7 @@ using learnStoreprocedure.Models;
 namespace learnStoreprocedure.Controllers;
 
 [Route("Home")]
+// [Route("[controller]")]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
@@ -14,13 +15,13 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    [Route("index")]
+    [HttpGet("index")]
     public IActionResult Index()
     {
         return View();
     }
 
-    [Route("privacy")]
+    [HttpGet("privacy")]
     public IActionResult Privacy()
     {
         return View();

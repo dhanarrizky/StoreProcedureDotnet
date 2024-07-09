@@ -38,6 +38,28 @@ public class UsersService
 
         return users;
     }
+
+    public ResponseViewModel AddNewUser (UserViewModel user){
+        int res = 0;
+        using (SqlConnection con = new SqlConnection(_conString)){
+            con.Open();
+            using (SqlCommand cmd = new SqlCommand("AddNewUser", con)){
+
+                cmd.CommandType = CommandType.StoredProcedure;
+                
+                cmd.Parameters.AddWithValue("@FirstName", user.FirstName);
+                cmd.Parameters.AddWithValue("@LastName", user.LastName);
+                cmd.Parameters.AddWithValue("@BiirthData", user.BirthDate);
+                res = cmd.ExecuteNonQuery();
+            }
+        }
+
+        return new ResponseViewModel {
+            ResponseCode = res > 0 ? 200 : 500,
+            ResponseMessage = res > 0 ? "Add New User Has Been Successfully" : "Error"
+        };
+
+    }
 }
 /**
 dm name newdbforlearnsp
