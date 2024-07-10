@@ -60,6 +60,28 @@ public class UsersService
         };
 
     }
+
+    public ResponseViewModel DeleteByUserId (int id){
+        int res = 0;
+        using (SqlConnection con = new SqlConnection(_conString)){
+            con.Open();
+            using (SqlCommand cmd = new SqlCommand("DeleteUserById", con)){
+
+                cmd.CommandType = CommandType.StoredProcedure;
+                
+                cmd.Parameters.AddWithValue("@Id", id);
+                res = cmd.ExecuteNonQuery();
+            }
+        }
+
+        return new ResponseViewModel {
+            ResponseCode = res > 0 ? 200 : 500,
+            ResponseMessage = res > 0 ? "Delete User Has Been Successfully" : "Error"
+        };
+
+    }
+
+    
 }
 /**
 dm name newdbforlearnsp

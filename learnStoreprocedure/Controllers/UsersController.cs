@@ -18,11 +18,21 @@ namespace learnStoreprocedure.Controllers
             return View("./../Data/index", res);
         }
 
+        [HttpGet("insert")]
+        public ActionResult GetAddNewUser()
+        {
+            return View("./../Data/upsert");
+        }
+
         [HttpPost]
         public ActionResult AddNewUser(UserViewModel user)
         {
             var res = _service.AddNewUser(user);
-            return View("./../Data/index", res);
+            if(res.ResponseCode != 200){
+                return Redirect("./../Data/index");
+            } else {
+                return View("./../Data/upsert", res);
+            }
         }
 
         [HttpGet("id")]
@@ -37,10 +47,12 @@ namespace learnStoreprocedure.Controllers
             return View("./../Data/index");
         }
 
+        [Route("Delete")]
         [HttpDelete("id")]
         public ActionResult DeleteUserById(int id)
         {
-            return View("./../Data/index");
+            _service.DeleteByUserId(id);
+            return Redirect("Data/index");
         }
     }
 }
