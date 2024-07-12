@@ -20,3 +20,46 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.title-tabel {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center ;
+}
+
+table , th, td{
+  border: 2px solid black;
+}
+
+th,td {
+  padding: 10px 20px;
+}
+
+button {
+  margin: 20px;
+}
+
+button a {
+  text-decoration: none;
+}
+
+.success-btn {
+  background-color: green;
+}
+.warning-btn, .warning-btn a {
+  background-color: yellow;
+  font-weight: bold;
+  color: black;
+}
+.danger-btn {
+  background-color: red;
+}
+
+.success-btn a, .danger-btn a {
+  font-weight: bold;
+  color: white;
+}

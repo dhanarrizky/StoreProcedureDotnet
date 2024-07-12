@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Insert - Update";
+}
+
+<div class="text-center">
+    <h1>Insert Update Data Users</h1>
+    <form action="#">
+        <div class="group-control">
+            <label for="firstname">firstname</label>
+            <input type="text" name="firstname">
+        </div>
+        <div class="group-control">
+            <label for="lastname">lastname</label>
+            <input type="text" name="lastname">
+        </div>
+        <div class="group-control">
+            <label for="birthdate">birthdate</label>
+            <input type="date" name="birthdate">
+        </div>
+        <div class="group-control">
+            <label for="birthdate">isactive</label>
+            <select name="isactive" id="isactive">
+                <option value="true">Active</option>
+                <option value="false">DeActive</option>
+            </select>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
