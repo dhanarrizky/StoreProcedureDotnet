@@ -29,8 +29,8 @@
                 <td>BIrth Date</td>
                 <td>Is Active</td>
                 <td>
-                    <button class="warning-btn"><a href="#">Edit</a></button>
-                    <button class="danger-btn"><a href="#">Delete</a></button>
+                    <button class="warning-btn"><a asp-controller="Users" asp-action="Edit" asp-route-id="1">Edit</a></button>
+                    <button class="danger-btn"><a asp-controller="Users" asp-action="Delete" asp-route-id="1">Delete</a></button>
                 </td>
             </tr>
         </table>

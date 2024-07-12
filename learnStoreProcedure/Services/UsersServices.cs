@@ -2,8 +2,18 @@ namespace learnStoreProcedure.Services;
 
 public class UsersServices
 {
-    private readonly String _ConnectionString;
-    public UsersServices(IConfiguration configuration){
+    public UsersServices(){}
+
+    public String GetAllDataUsers(){
+        return "Get All Data Users";
+    }
+
+    public String GetUserById(int id){
+        return "Get User By Id = " + id;
+    }
+
+    public String DeleteUserById(int id){
+        return "Detele User By Id = " + id;
     }
 
 }
