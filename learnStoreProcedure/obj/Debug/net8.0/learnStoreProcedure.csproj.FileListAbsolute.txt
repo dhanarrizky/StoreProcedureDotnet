@@ -29,3 +29,11 @@ D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreProcedure\obj\Debug\net8.0\refint\learnSto
 D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreProcedure\obj\Debug\net8.0\learnStoreProcedure.pdb
 D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreProcedure\obj\Debug\net8.0\learnStoreProcedure.genruntimeconfig.cache
 D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreProcedure\obj\Debug\net8.0\ref\learnStoreProcedure.dll
+D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreProcedure\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreProcedure\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreProcedure\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreProcedure\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreProcedure\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreProcedure\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreProcedure\obj\Debug\net8.0\learnStoreProcedure.csproj.AssemblyReference.cache
+D:\PEMROGRAMMAN\BESIC\C#\SP\learnStoreProcedure\obj\Debug\net8.0\learnSto.678DC20D.Up2Date

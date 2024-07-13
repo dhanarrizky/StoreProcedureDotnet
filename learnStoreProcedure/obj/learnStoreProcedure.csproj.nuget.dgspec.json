@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreprocedure\\learnStoreProcedure.csproj": {}
+    "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreProcedure\\learnStoreProcedure.csproj": {}
   },
   "projects": {
-    "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreprocedure\\learnStoreProcedure.csproj": {
+    "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreProcedure\\learnStoreProcedure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreprocedure\\learnStoreProcedure.csproj",
+        "projectUniqueName": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreProcedure\\learnStoreProcedure.csproj",
         "projectName": "learnStoreProcedure",
-        "projectPath": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreprocedure\\learnStoreProcedure.csproj",
+        "projectPath": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreProcedure\\learnStoreProcedure.csproj",
         "packagesPath": "C:\\Users\\TUF\\.nuget\\packages\\",
-        "outputPath": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreprocedure\\obj\\",
+        "outputPath": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreProcedure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TUF\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -40,8 +40,14 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,24 +59,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.30, 6.0.30]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.30, 6.0.30]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.30, 6.0.30]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.30, 6.0.30]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

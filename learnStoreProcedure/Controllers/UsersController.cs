@@ -18,8 +18,8 @@ public class UsersController : Controller
     [HttpGet]
     public IActionResult Index(){
         var res = _services.GetAllDataUsers();
-        _logger.LogInformation("Get All Data Users : {0}", res);
-        return View("Views/DataUsers/Index.cshtml");
+        _logger.LogInformation("Get All Data Users");
+        return View("Views/DataUsers/Index.cshtml", res);
     }
 
     [HttpGet("Insert")]
