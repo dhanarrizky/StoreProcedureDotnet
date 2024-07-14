@@ -24,12 +24,12 @@ public class UsersController : Controller
 
     [HttpGet("Insert")]
     public IActionResult GetAddNewUsers(){
-        return View("Views/DataUsers/Index.cshtml");
+        return View("Views/DataUsers/UpSert.cshtml");
     }
 
     [HttpPost("Insert")]
     public IActionResult AddNewUsers(UserViewModel user){
-        return View("Views/DataUsers/Index.cshtml");
+        return RedirectToAction("Index");
     }
 
     [HttpGet("Edit/{id}")]
