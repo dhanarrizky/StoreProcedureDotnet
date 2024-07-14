@@ -24,23 +24,34 @@ public class UsersController : Controller
 
     [HttpGet("Insert")]
     public IActionResult GetAddNewUsers(){
-        return View("Views/DataUsers/UpSert.cshtml");
+        UpSertModel model = new UpSertModel {
+            CurrentPosition = "Insert"
+        };
+        return View("Views/DataUsers/UpSert.cshtml", model);
     }
 
     [HttpPost("Insert")]
-    public IActionResult AddNewUsers(UserViewModel user){
+    public IActionResult AddNewUsers(UpSertModel model){
+        _services.InsertDataUser(
+            model.User != null ? model.User : new UserViewModel()
+        );
         return RedirectToAction("Index");
     }
 
     [HttpGet("Edit/{id}")]
     public IActionResult Edit(int id){
-        var res = _services.GetUserById(id);
-        _logger.LogInformation("Edit : {0}", res);
-        return View("Views/DataUsers/Upsert.cshtml");
+        UpSertModel model = new UpSertModel {
+            CurrentPosition = "Update",
+            User = _services.GetUserById(id)
+        };
+        return View("Views/DataUsers/Upsert.cshtml", model);
     }
 
     [HttpPost("Update")]
-    public IActionResult Update(UserViewModel user){
+    public IActionResult Update(UpSertModel model){
+        _services.UpdateDataUser(
+            model.User != null ? model.User : new UserViewModel()
+        );
         return View("Views/DataUsers/UpSert.cshtml");
     }
 

@@ -7,8 +7,11 @@ select * from users;
 CREATE PROCEDURE GetAllDataUsers
 AS
 BEGIN
-	SELECT * FROM users;
+	SELECT * FROM users
+	ORDER BY id DESC;
 END
+
+drop procedure GetAllDataUsers
 
 exec GetAllDataUsers
 

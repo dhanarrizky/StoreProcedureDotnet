@@ -41,8 +41,60 @@ public class UsersServices
         return users;
     }
 
-    public String GetUserById(int id){
-        return "Get User By Id = " + id;
+    public UserViewModel GetUserById(int id){
+        UserViewModel user = new UserViewModel();
+
+        using(SqlConnection con = new SqlConnection(_conn)){
+            con.Open();
+            using (SqlCommand cmd = new SqlCommand("GetUserById", con)){
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Id",id);
+
+                using(SqlDataReader reader = cmd.ExecuteReader()){
+                    if(reader.Read()){
+                        user.Id = reader.GetInt32(reader.GetOrdinal("id"));
+                        user.FirstName = reader.GetString(reader.GetOrdinal("firstname"));
+                        user.LastName = reader.GetString(reader.GetOrdinal("lastname"));
+                        user.BirthDate = DateOnly.FromDateTime(reader.GetDateTime(reader.GetOrdinal("birthdate")));
+                        user.IsActive = reader.GetBoolean(reader.GetOrdinal("isactive"));
+                    }
+                }
+            }
+        }
+        return user;
+    }
+
+    public String InsertDataUser(UserViewModel user){
+        using(SqlConnection con = new SqlConnection(_conn)){
+            con.Open();
+            using (SqlCommand cmd = new SqlCommand("AddNewUser", con)){
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@FirstName",user.FirstName);
+                cmd.Parameters.AddWithValue("@LastName",user.LastName);
+                cmd.Parameters.AddWithValue("@birthdate",user.BirthDate);
+                cmd.Parameters.AddWithValue("@IsActive",user.IsActive);
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+        return "";
+    }
+
+    public String UpdateDataUser(UserViewModel user){
+        using(SqlConnection con = new SqlConnection(_conn)){
+            con.Open();
+            using (SqlCommand cmd = new SqlCommand("UpdateUserById", con)){
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Id",user.Id);
+                cmd.Parameters.AddWithValue("@FirstName",user.FirstName);
+                cmd.Parameters.AddWithValue("@LastName",user.LastName);
+                cmd.Parameters.AddWithValue("@birthdate",user.BirthDate);
+                cmd.Parameters.AddWithValue("@IsActive",user.IsActive);
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+        return "";
     }
 
     public String DeleteUserById(int id){
