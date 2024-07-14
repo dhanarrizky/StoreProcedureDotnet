@@ -6,7 +6,8 @@
 
 <div class="text-center">
     <h1>Insert Update Data Users</h1>
-    <form action="#">
+    <form asp-action="@(Model.CurrentPosition.Equals("Insert") ? "Insert" : "Update")"
+    method="post">
         <div class="group-control">
             <label for="firstname">firstname</label>
             <input asp-for="@Model.User.FirstName" type="text" name="firstname">

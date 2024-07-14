@@ -71,7 +71,7 @@ public class UsersServices
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@FirstName",user.FirstName);
                 cmd.Parameters.AddWithValue("@LastName",user.LastName);
-                cmd.Parameters.AddWithValue("@birthdate",user.BirthDate);
+                cmd.Parameters.AddWithValue("@birthdate",user.BirthDate.ToDateTime(TimeOnly.MinValue));
                 cmd.Parameters.AddWithValue("@IsActive",user.IsActive);
                 cmd.ExecuteNonQuery();
             }
@@ -88,7 +88,7 @@ public class UsersServices
                 cmd.Parameters.AddWithValue("@Id",user.Id);
                 cmd.Parameters.AddWithValue("@FirstName",user.FirstName);
                 cmd.Parameters.AddWithValue("@LastName",user.LastName);
-                cmd.Parameters.AddWithValue("@birthdate",user.BirthDate);
+                cmd.Parameters.AddWithValue("@birthdate",user.BirthDate.ToDateTime(TimeOnly.MinValue));
                 cmd.Parameters.AddWithValue("@IsActive",user.IsActive);
                 cmd.ExecuteNonQuery();
             }

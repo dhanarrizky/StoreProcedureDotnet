@@ -32,6 +32,9 @@ public class UsersController : Controller
 
     [HttpPost("Insert")]
     public IActionResult AddNewUsers(UpSertModel model){
+        _logger.LogInformation("Return date time : {0}", model.User != null ? 
+            model.User.BirthDate :
+            new DateTime());
         _services.InsertDataUser(
             model.User != null ? model.User : new UserViewModel()
         );
