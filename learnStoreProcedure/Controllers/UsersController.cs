@@ -33,7 +33,8 @@ public class UsersController : Controller
 
     [HttpPost("Insert")]
     public IActionResult AddNewUsers(UpSertModel model){
-        _logger.LogInformation("model.User : ",model.User.FirstName);
+        _logger.LogInformation("Inserting");
+        _services.InsertDataUser(model.User);
         return RedirectToAction("Index");
     }
 

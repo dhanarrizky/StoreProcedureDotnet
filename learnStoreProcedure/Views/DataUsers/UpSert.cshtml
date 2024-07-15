@@ -1,32 +1,29 @@
 @model UpSertModel
 @{
-    ViewData["Title"] = Model.User == null ? "Insert" : "Update";
+    ViewData["Title"] = Model.CurrentPosition == "Insert" ? "Insert" : "Update";
 }
 
-
-
-<div class="text-center">
-    <h1>Insert Update Data Users</h1>
-    <form asp-action="Update" method="post">
-        <div class="group-control">
-            <label for="firstname">firstname</label>
-            <input asp-for="User.FirstName" type="text" name="firstname">
-        </div>
-        <div class="group-control">
-            <label for="lastname">lastname</label>
-            <input asp-for="User.LastName" type="text" name="lastname">
-        </div>
-        <div class="group-control">
-            <label for="birthdate">birthdate</label>
-            <input asp-for="User.BirthDate" type="date" name="birthdate">
-        </div>
-        <div class="group-control">
-            <label for="isactive">isactive</label>
-            <select asp-for="User.IsActive" name="isactive" id="isactive">
-                <option value="true">Active</option>
-                <option value="false">DeActive</option>
+<form method="post">
+    <div class="form-control">
+        <label asp-for="User.FirstName">firstname : </label>
+        <input asp-for="User.FirstName">
+    </div>
+    <div class="form-control">
+        <label asp-for="User.LastName">lastname : </label>
+        <input asp-for="User.LastName">
+    </div>
+    <div class="form-control">
+        <label asp-for="User.BirthDate">birthdate : </label>
+        <input asp-for="User.BirthDate">
+    </div>
+    @if(Model.CurrentPosition != "Insert"){
+        <div class="form-control">
+            <label asp-for="User.IsActive">IsActive : </label>
+            <select asp-for="User.IsActive">
+                <option value="1">Active</option>
+                <option value="0">DeActive</option>
             </select>
         </div>
-        <button>Submit</button>
-    </form>
-</div>
+    }
+    <button type="submit">Submit</button>
+</form>
