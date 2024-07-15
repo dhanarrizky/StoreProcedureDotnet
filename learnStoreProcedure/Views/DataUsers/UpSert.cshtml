@@ -1,32 +1,32 @@
 @model UpSertModel
 @{
-    ViewData["Title"] = Model.CurrentPosition.Equals("Insert") ? "Insert" : "Update";
+    ViewData["Title"] = Model.User == null ? "Insert" : "Update";
 }
+
 
 
 <div class="text-center">
     <h1>Insert Update Data Users</h1>
-    <form asp-action="@(Model.CurrentPosition.Equals("Insert") ? "Insert" : "Update")"
-    method="post">
+    <form asp-action="Update" method="post">
         <div class="group-control">
             <label for="firstname">firstname</label>
-            <input asp-for="@Model.User.FirstName" type="text" name="firstname">
+            <input asp-for="User.FirstName" type="text" name="firstname">
         </div>
         <div class="group-control">
             <label for="lastname">lastname</label>
-            <input asp-for="@Model.User.LastName" type="text" name="lastname">
+            <input asp-for="User.LastName" type="text" name="lastname">
         </div>
         <div class="group-control">
             <label for="birthdate">birthdate</label>
-            <input asp-for="@Model.User.BirthDate" type="date" name="birthdate">
+            <input asp-for="User.BirthDate" type="date" name="birthdate">
         </div>
         <div class="group-control">
             <label for="isactive">isactive</label>
-            <select asp-for="@Model.User.IsActive" name="isactive" id="isactive">
+            <select asp-for="User.IsActive" name="isactive" id="isactive">
                 <option value="true">Active</option>
                 <option value="false">DeActive</option>
             </select>
         </div>
-        <button type="submit">Submit</button>
+        <button>Submit</button>
     </form>
 </div>

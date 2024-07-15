@@ -29,7 +29,7 @@ public class UsersServices
                                 Id = reader.GetInt32(reader.GetOrdinal("id")),
                                 FirstName = reader.GetString(reader.GetOrdinal("firstname")),
                                 LastName = reader.GetString(reader.GetOrdinal("lastname")),
-                                BirthDate = DateOnly.FromDateTime(reader.GetDateTime(reader.GetOrdinal("birthdate"))),
+                                BirthDate = reader.GetDateTime(reader.GetOrdinal("birthdate")),
                                 IsActive = reader.GetBoolean(reader.GetOrdinal("isactive"))
                             }
                         );
@@ -55,7 +55,8 @@ public class UsersServices
                         user.Id = reader.GetInt32(reader.GetOrdinal("id"));
                         user.FirstName = reader.GetString(reader.GetOrdinal("firstname"));
                         user.LastName = reader.GetString(reader.GetOrdinal("lastname"));
-                        user.BirthDate = DateOnly.FromDateTime(reader.GetDateTime(reader.GetOrdinal("birthdate")));
+                        // user.BirthDate = DateOnly.FromDateTime(reader.GetDateTime(reader.GetOrdinal("birthdate")));
+                        user.BirthDate = reader.GetDateTime(reader.GetOrdinal("birthdate"));
                         user.IsActive = reader.GetBoolean(reader.GetOrdinal("isactive"));
                     }
                 }
@@ -71,7 +72,7 @@ public class UsersServices
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@FirstName",user.FirstName);
                 cmd.Parameters.AddWithValue("@LastName",user.LastName);
-                cmd.Parameters.AddWithValue("@birthdate",user.BirthDate.ToDateTime(TimeOnly.MinValue));
+                // cmd.Parameters.AddWithValue("@birthdate",user.BirthDate.ToDateTime(TimeOnly.MinValue));
                 cmd.Parameters.AddWithValue("@IsActive",user.IsActive);
                 cmd.ExecuteNonQuery();
             }
@@ -88,7 +89,7 @@ public class UsersServices
                 cmd.Parameters.AddWithValue("@Id",user.Id);
                 cmd.Parameters.AddWithValue("@FirstName",user.FirstName);
                 cmd.Parameters.AddWithValue("@LastName",user.LastName);
-                cmd.Parameters.AddWithValue("@birthdate",user.BirthDate.ToDateTime(TimeOnly.MinValue));
+                // cmd.Parameters.AddWithValue("@birthdate",user.BirthDate.ToDateTime(TimeOnly.MinValue));
                 cmd.Parameters.AddWithValue("@IsActive",user.IsActive);
                 cmd.ExecuteNonQuery();
             }

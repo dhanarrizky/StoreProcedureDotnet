@@ -24,20 +24,16 @@ public class UsersController : Controller
 
     [HttpGet("Insert")]
     public IActionResult GetAddNewUsers(){
-        UpSertModel model = new UpSertModel {
-            CurrentPosition = "Insert"
+        UpSertModel model = new UpSertModel(){
+            CurrentPosition = "Insert",
+            User = new UserViewModel()
         };
         return View("Views/DataUsers/UpSert.cshtml", model);
     }
 
     [HttpPost("Insert")]
     public IActionResult AddNewUsers(UpSertModel model){
-        _logger.LogInformation("Return date time : {0}", model.User != null ? 
-            model.User.BirthDate :
-            new DateTime());
-        _services.InsertDataUser(
-            model.User != null ? model.User : new UserViewModel()
-        );
+        _logger.LogInformation("model.User : ",model.User.FirstName);
         return RedirectToAction("Index");
     }
 
