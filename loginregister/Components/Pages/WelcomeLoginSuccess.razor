@@ -1,0 +1,45 @@
+@page "/home";
+@rendermode InteractiveServer
+@* // we can use this code for make this page to be interactive*@
+
+@* <h1>Welcome to apps , @username</h1> *@
+<h1>Welcome to apps , @GetFullName()</h1>
+<br>
+@* <button @onclick="ChangeName">Change Name</button> *@
+@* we can do like this too *@
+<button @onclick="@(() => { username = "sardi"; })">Change Name</button>
+<br><br>
+
+<h3>Counting</h3>
+<p>@num</p>
+@if(num > 5) {
+    <span style="color: red;">number is more than 5</span><br>
+}
+<button @onclick="Increase">Increase</button>
+
+<br><br><hr><br>
+@for(int i = 0; i < 10; i++){
+    <p>value of i : @i</p>
+}
+
+
+@code {
+    private int num = 0;
+    private string username = "test code";
+
+    private string GetFullName(){
+        return username + " FullName guys";
+    }
+
+    private void ChangeName(){
+        username = "haha I change it";
+    }
+
+    private int GetNum(){
+        return 2+2;
+    }
+
+    private void Increase(){
+        num++;
+    }
+}

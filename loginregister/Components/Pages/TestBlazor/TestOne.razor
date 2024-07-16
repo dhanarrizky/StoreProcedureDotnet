@@ -1,0 +1,20 @@
+@page "/home/test1"
+
+<h1>Test One</h1><hr>
+@foreach(var name in names){
+    <p>value of name : @name</p>
+}
+
+<br><hr><br><br>
+
+@code {
+    private List<string> names;
+
+    protected override void OnInitialized(){
+        base.OnInitialized();
+        names = new List<string> {
+            "value1","value2","value3","value4","value5",
+            "value6","value7","value8","value9","value10"
+            };
+    }
+}

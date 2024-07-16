@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreprocedure\\learnStoreProcedure.csproj": {}
+    "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\loginregister.csproj": {}
   },
   "projects": {
-    "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreprocedure\\learnStoreProcedure.csproj": {
+    "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\loginregister.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreprocedure\\learnStoreProcedure.csproj",
-        "projectName": "learnStoreProcedure",
-        "projectPath": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreprocedure\\learnStoreProcedure.csproj",
+        "projectUniqueName": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\loginregister.csproj",
+        "projectName": "loginregister",
+        "projectPath": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\loginregister.csproj",
         "packagesPath": "C:\\Users\\TUF\\.nuget\\packages\\",
-        "outputPath": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreprocedure\\obj\\",
+        "outputPath": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TUF\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,12 +42,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "System.Data.SqlClient": {
-              "target": "Package",
-              "version": "[4.8.6, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

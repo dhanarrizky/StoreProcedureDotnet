@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\loginregister.bundle.scp.css",
+      "PackagePath": "staticwebassets\\loginregister.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.loginregister.props",
+      "PackagePath": "build\\loginregister.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.loginregister.props",
+      "PackagePath": "buildMultiTargeting\\loginregister.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.loginregister.props",
+      "PackagePath": "buildTransitive\\loginregister.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.loginregister.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
