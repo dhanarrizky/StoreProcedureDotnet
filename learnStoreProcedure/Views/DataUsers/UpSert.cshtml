@@ -1,9 +1,13 @@
 @model UpSertModel
 @{
-    ViewData["Title"] = Model.CurrentPosition == "Insert" ? "Insert" : "Update";
+    @* ViewData["Title"] = Model.CurrentPosition == "Insert" ? "Insert" : "Update"; *@
+    ViewData["Title"] = Model.CurrentPosition;
 }
 
-<form method="post">
+<form asp-action="@Model.CurrentPosition" method="post">
+    @if(Model.CurrentPosition != "Insert"){
+        <input asp-for="User.Id" style="display: none;">
+    }
     <div class="form-control">
         <label asp-for="User.FirstName">firstname : </label>
         <input asp-for="User.FirstName">

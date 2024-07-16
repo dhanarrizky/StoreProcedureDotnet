@@ -81,6 +81,7 @@ public class UsersServices
     }
 
     public String UpdateDataUser(UserViewModel user){
+        Console.WriteLine("test code until this one or not : ",  user.FirstName);
         using(SqlConnection con = new SqlConnection(_conn)){
             con.Open();
             using (SqlCommand cmd = new SqlCommand("UpdateUserById", con)){

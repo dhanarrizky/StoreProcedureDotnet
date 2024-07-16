@@ -30,23 +30,23 @@ exec GetUserById @Id = 2006
 CREATE PROCEDURE AddNewUser
 	@FirstName VARCHAR(100),
 	@LastName VARCHAR(100),
-	@BiirthData DATE,
+	@BirthDate DATE,
 	@IsActive BIT
 AS
 BEGIN
 	INSERT INTO users(firstname, lastname, birthdate, isActive)
 		VALUES
-	(@FirstName, @LastName, @BiirthData, @IsActive);
+	(@FirstName, @LastName, @BirthDate, @IsActive);
 END
 
-exec AddNewUser @FirstName = 'hhhhh' , @LastName = 'test', @BiirthData = '11-8-2001', @IsActive = 0
+exec AddNewUser @FirstName = 'hhhhh' , @LastName = 'test', @BirthDate = '11-8-2001', @IsActive = 0
 
 -- updateing exist user
 CREATE PROCEDURE UpdateUserById
 	@Id INT,
 	@FirstName VARCHAR(100),
 	@LastName VARCHAR(100),
-	@BiirthData DATE,
+	@BirthDate DATE,
 	@IsActive BIT
 AS
 BEGIN
@@ -54,12 +54,12 @@ BEGIN
 		SET 
 		firstname = @FirstName, 
 		lastname = @LastName, 
-		birthdate = @BiirthData,
+		birthdate = @BirthDate,
 		isActive = @IsActive
 	WHERE id = @Id;
 END
 
-exec UpdateUserById @Id = 3003, @FirstName = 'test' , @LastName = 'test', @BiirthData = '11-8-2001', @IsActive = 1
+exec UpdateUserById @Id = 3003, @FirstName = 'test' , @LastName = 'test', @BirthDate = '11-8-2001', @IsActive = 1
 
 
 -- deleteing user by id

@@ -49,10 +49,8 @@ public class UsersController : Controller
 
     [HttpPost("Update")]
     public IActionResult Update(UpSertModel model){
-        _services.UpdateDataUser(
-            model.User != null ? model.User : new UserViewModel()
-        );
-        return View("Views/DataUsers/UpSert.cshtml");
+        _services.UpdateDataUser(model.User);
+        return RedirectToAction("Index");
     }
 
     [HttpGet("Delete/{id}")]
