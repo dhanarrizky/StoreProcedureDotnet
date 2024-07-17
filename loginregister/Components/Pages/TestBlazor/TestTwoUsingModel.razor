@@ -1,0 +1,56 @@
+@page "/home/test2"
+
+<h1>Page Test 2</h1>
+
+<p>@Title</p>
+<hr><br><br>
+
+@foreach(var user in Users){
+    <p>
+        @* <b>Full Name : </b> <span>@user.FirstName @user.LastName</span>
+        <br>
+        <b>Email : </b><a href="#">@user.Email</a>
+        <br>
+        <button>Detail</button>
+        <button>Delete</button> 
+        
+        
+        we can do like above, but it's ok when you wanna use another method like bottom
+        in the bottom we can show component using another component razor
+        *@
+        <TestTwoUserComponent1 Currentuser="user"></TestTwoUserComponent1>
+        @* <TestTwoUserComponent2 Placeholder="test place holder razor"></TestTwoUserComponent2>
+
+            we can make custom with the attribute too like this
+         *@
+        <TestTwoUserComponent2 @attributes="@Attributes"></TestTwoUserComponent2>
+
+
+    </p>
+}
+
+
+@code {
+    private Dictionary<string, object> Attributes = new Dictionary<string, object>() {
+            {"disabled", "disabled"},
+            {"placeholder", "contact name"},
+            {"type","text"}
+        };
+
+    private string Title = "test again";
+    private List<UserModel> Users;
+    protected override void OnInitialized(){
+        base.OnInitialized();
+        Users = new List<UserModel>();
+
+        for(int i = 0; i < 10; i++){
+            Users.Add(
+                new UserModel {
+                    FirstName = "name" + i,
+                    LastName = "lastname" + i,
+                    Email = "emailname" + i + "@gmail.com"
+                }
+            );
+        }
+    }
+}

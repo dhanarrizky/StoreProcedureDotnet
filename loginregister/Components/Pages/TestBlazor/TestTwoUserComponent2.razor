@@ -1,0 +1,15 @@
+﻿@* <h3>TestTWoDetail</h3> *@
+
+@* <h1>Detail Send data</h1> *@
+<p>
+    @* <input type="text" placeholder="@Placeholder"> *@
+    <input @attributes="CustomAtributes">
+</p>
+
+
+@code {
+    @* [Parameter]
+    public string Placeholder { get; set; } *@
+    [Parameter(CaptureUnmatchedValues = true)]
+    public Dictionary<string, object> CustomAtributes { get; set; }
+}

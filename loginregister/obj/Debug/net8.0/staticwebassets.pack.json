@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\loginregister.bundle.scp.css",
+      "Id": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\loginregister.bundle.scp.css",
       "PackagePath": "staticwebassets\\loginregister.bundle.scp.css"
     },
     {
-      "Id": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\wwwroot\\app.css",
+      "Id": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\wwwroot\\favicon.png",
+      "Id": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
