@@ -9,75 +9,75 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = loginregister
 build_property.RootNamespace = loginregister
-build_property.ProjectDir = D:\PEMROGRAMMAN\BESIC\c#\SP\loginregister\
+build_property.ProjectDir = D:\PEMROGRAMMAN\BESIC\C#\SP\loginregister\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\PEMROGRAMMAN\BESIC\c#\SP\loginregister
+build_property.MSBuildProjectDirectory = D:\PEMROGRAMMAN\BESIC\C#\SP\loginregister
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/PEMROGRAMMAN/BESIC/c\#/SP/loginregister/Components/App.razor]
+[D:/PEMROGRAMMAN/BESIC/C\#/SP/loginregister/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PEMROGRAMMAN/BESIC/c\#/SP/loginregister/Components/Pages/Counter.razor]
+[D:/PEMROGRAMMAN/BESIC/C\#/SP/loginregister/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PEMROGRAMMAN/BESIC/c\#/SP/loginregister/Components/Pages/Error.razor]
+[D:/PEMROGRAMMAN/BESIC/C\#/SP/loginregister/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PEMROGRAMMAN/BESIC/c\#/SP/loginregister/Components/Pages/Home.razor]
+[D:/PEMROGRAMMAN/BESIC/C\#/SP/loginregister/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PEMROGRAMMAN/BESIC/c\#/SP/loginregister/Components/Pages/Login.razor]
+[D:/PEMROGRAMMAN/BESIC/C\#/SP/loginregister/Components/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PEMROGRAMMAN/BESIC/c\#/SP/loginregister/Components/Pages/Register.razor]
+[D:/PEMROGRAMMAN/BESIC/C\#/SP/loginregister/Components/Pages/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZWdpc3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PEMROGRAMMAN/BESIC/c\#/SP/loginregister/Components/Pages/TestBlazor/TestOne.razor]
+[D:/PEMROGRAMMAN/BESIC/C\#/SP/loginregister/Components/Pages/TestBlazor/TestOne.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUZXN0Qmxhem9yXFRlc3RPbmUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PEMROGRAMMAN/BESIC/c\#/SP/loginregister/Components/Pages/TestBlazor/TestTwoUserComponent1.razor]
+[D:/PEMROGRAMMAN/BESIC/C\#/SP/loginregister/Components/Pages/TestBlazor/TestTwoUserComponent1.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUZXN0Qmxhem9yXFRlc3RUd29Vc2VyQ29tcG9uZW50MS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PEMROGRAMMAN/BESIC/c\#/SP/loginregister/Components/Pages/TestBlazor/TestTwoUserComponent2.razor]
+[D:/PEMROGRAMMAN/BESIC/C\#/SP/loginregister/Components/Pages/TestBlazor/TestTwoUserComponent2.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUZXN0Qmxhem9yXFRlc3RUd29Vc2VyQ29tcG9uZW50Mi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PEMROGRAMMAN/BESIC/c\#/SP/loginregister/Components/Pages/TestBlazor/TestTwoUsingModel.razor]
+[D:/PEMROGRAMMAN/BESIC/C\#/SP/loginregister/Components/Pages/TestBlazor/TestTwoUsingModel.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUZXN0Qmxhem9yXFRlc3RUd29Vc2luZ01vZGVsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PEMROGRAMMAN/BESIC/c\#/SP/loginregister/Components/Pages/Weather.razor]
+[D:/PEMROGRAMMAN/BESIC/C\#/SP/loginregister/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PEMROGRAMMAN/BESIC/c\#/SP/loginregister/Components/Pages/WelcomeLoginSuccess.razor]
+[D:/PEMROGRAMMAN/BESIC/C\#/SP/loginregister/Components/Pages/WelcomeLoginSuccess.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWxjb21lTG9naW5TdWNjZXNzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PEMROGRAMMAN/BESIC/c\#/SP/loginregister/Components/Routes.razor]
+[D:/PEMROGRAMMAN/BESIC/C\#/SP/loginregister/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PEMROGRAMMAN/BESIC/c\#/SP/loginregister/Components/_Imports.razor]
+[D:/PEMROGRAMMAN/BESIC/C\#/SP/loginregister/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PEMROGRAMMAN/BESIC/c\#/SP/loginregister/Components/Layout/MainLayout.razor]
+[D:/PEMROGRAMMAN/BESIC/C\#/SP/loginregister/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-7zagtnow95
 
-[D:/PEMROGRAMMAN/BESIC/c\#/SP/loginregister/Components/Layout/NavMenu.razor]
+[D:/PEMROGRAMMAN/BESIC/C\#/SP/loginregister/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-36nb9u976l

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Lk5cd7Fy3xPVrjN/rKNcC1V+N8Af9pTsXUqfTXqZzJc=",
+  "Hash": "jg9oegYgj8t2gpWS4QOmfo8F7m1AJ7N4o5J8hZh7lgg=",
   "Source": "loginregister",
   "BasePath": "_content/loginregister",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "loginregister\\wwwroot",
       "Source": "loginregister",
-      "ContentRoot": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\wwwroot\\",
+      "ContentRoot": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\wwwroot\\",
       "BasePath": "_content/loginregister",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\obj\\Debug\\net8.0\\scopedcss\\bundle\\loginregister.styles.css",
+      "Identity": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\obj\\Debug\\net8.0\\scopedcss\\bundle\\loginregister.styles.css",
       "SourceId": "loginregister",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/loginregister",
       "RelativePath": "loginregister.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\obj\\Debug\\net8.0\\scopedcss\\bundle\\loginregister.styles.css"
+      "OriginalItemSpec": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\obj\\Debug\\net8.0\\scopedcss\\bundle\\loginregister.styles.css"
     },
     {
-      "Identity": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\loginregister.bundle.scp.css",
+      "Identity": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\loginregister.bundle.scp.css",
       "SourceId": "loginregister",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/loginregister",
       "RelativePath": "loginregister.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\loginregister.bundle.scp.css"
+      "OriginalItemSpec": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\loginregister.bundle.scp.css"
     },
     {
-      "Identity": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\wwwroot\\app.css",
+      "Identity": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\wwwroot\\app.css",
       "SourceId": "loginregister",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\wwwroot\\",
+      "ContentRoot": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\wwwroot\\",
       "BasePath": "_content/loginregister",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "loginregister",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\wwwroot\\",
+      "ContentRoot": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\wwwroot\\",
       "BasePath": "_content/loginregister",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "loginregister",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\wwwroot\\",
+      "ContentRoot": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\wwwroot\\",
       "BasePath": "_content/loginregister",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\wwwroot\\favicon.png",
+      "Identity": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\wwwroot\\favicon.png",
       "SourceId": "loginregister",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\wwwroot\\",
+      "ContentRoot": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\wwwroot\\",
       "BasePath": "_content/loginregister",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

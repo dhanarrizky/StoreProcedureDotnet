@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreprocedure\\learnStoreProcedure.csproj": {}
+    "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreProcedure\\learnStoreProcedure.csproj": {}
   },
   "projects": {
-    "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreprocedure\\learnStoreProcedure.csproj": {
+    "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreProcedure\\learnStoreProcedure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreprocedure\\learnStoreProcedure.csproj",
+        "projectUniqueName": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreProcedure\\learnStoreProcedure.csproj",
         "projectName": "learnStoreProcedure",
-        "projectPath": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreprocedure\\learnStoreProcedure.csproj",
+        "projectPath": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreProcedure\\learnStoreProcedure.csproj",
         "packagesPath": "C:\\Users\\TUF\\.nuget\\packages\\",
-        "outputPath": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreprocedure\\obj\\",
+        "outputPath": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\learnStoreProcedure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TUF\\AppData\\Roaming\\NuGet\\NuGet.Config"

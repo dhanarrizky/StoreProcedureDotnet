@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\loginregister.csproj": {}
+    "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\loginregister.csproj": {}
   },
   "projects": {
-    "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\loginregister.csproj": {
+    "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\loginregister.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\loginregister.csproj",
+        "projectUniqueName": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\loginregister.csproj",
         "projectName": "loginregister",
-        "projectPath": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\loginregister.csproj",
+        "projectPath": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\loginregister.csproj",
         "packagesPath": "C:\\Users\\TUF\\.nuget\\packages\\",
-        "outputPath": "D:\\PEMROGRAMMAN\\BESIC\\c#\\SP\\loginregister\\obj\\",
+        "outputPath": "D:\\PEMROGRAMMAN\\BESIC\\C#\\SP\\loginregister\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TUF\\AppData\\Roaming\\NuGet\\NuGet.Config"

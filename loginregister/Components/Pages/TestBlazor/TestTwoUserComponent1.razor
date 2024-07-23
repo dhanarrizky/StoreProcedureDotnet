@@ -1,10 +1,16 @@
-﻿@* <h3>TestTWoDetail</h3> *@
+﻿@rendermode InteractiveServer
+
+@* <h3>TestTWoDetail</h3> *@
 
 @* <h1>Detail Send data</h1> *@
 <p>
     <b>Firstname : </b><span>@Currentuser.FirstName</span><br>
     <b>Lastname : </b><span>@Currentuser.LastName</span><br>
     <b>Email : </b><span>@Currentuser.Email</span><br>
+    @if(displayInfo) {
+        <span>The Email Address of @Currentuser.FirstName is @Currentuser.Email</span>
+    }
+    <button @onclick="@(()=> {displayInfo = !displayInfo; })">Show Text Info</button>
 </p>
 
 
@@ -18,4 +24,6 @@
 
     [Parameter]
     public UserModel Currentuser { get; set; }
+
+    private bool displayInfo = false;
 }
